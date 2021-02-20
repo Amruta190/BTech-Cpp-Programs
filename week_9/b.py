@@ -7,9 +7,9 @@ def word_freq(lt):
             dic[i]=1
     return dic
 ipfile=open("text1.txt",'r')
-l=ipfile.read().split("\n")
+l_5B9=ipfile.read().split("\n")
 lt=[]
-for i in l:
+for i in l_5B9:
     for j in i.split():
         lt.append(j.lower())
 freq_count=word_freq(lt)

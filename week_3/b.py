@@ -5,6 +5,6 @@
 # for i in range(1,21):
 #     print(f"69x{i}={69*i}")
 
-n=int(input("Which table ? : "))
+n_5B9=int(input("Which table ? : "))
 for i in range(1,21):
-    print(f"{n}x{i}={n*i}")
+    print(f"{n_5B9}x{i}={n_5B9*i}")

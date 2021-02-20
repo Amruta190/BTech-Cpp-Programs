@@ -1,11 +1,11 @@
-class person:
-    def _init_(self, name,age,height,weight):
-        self.name=name
-        self.age=age
-        self.height=height
-        self.weight=weight
+class person(object):
+    def __init__(self, name_5B9,age_5B9,height_5B9,weight_5B9):
+        self.name_5B9=name_5B9
+        self.age_5B9=age_5B9
+        self.height_5B9=height_5B9
+        self.weight_5B9=weight_5B9
     def get_bmi(self):
-        bmi=float(self.weight/((self.height*0.3048)**2))
+        bmi=float(self.weight_5B9/((self.height_5B9*0.3048)**2))
         if bmi<18.5:
             return "Underweight"
         elif bmi>=18.5 and bmi<25:

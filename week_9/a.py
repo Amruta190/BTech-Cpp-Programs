@@ -1,7 +1,7 @@
 ipfile=open("text1.txt",'r')
-l=ipfile.read().split("\n")
+l_5B9=ipfile.read().split("\n")
 lt=[]
-for i in l:
+for i in l_5B9:
     for j in i.split():
         lt.append(j.lower())
 lt.sort()
